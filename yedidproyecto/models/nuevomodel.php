@@ -1,7 +1,5 @@
 <?php
 
-
-
 class NuevoModel extends Model{
 
     public function __construct(){
@@ -25,9 +23,7 @@ class NuevoModel extends Model{
             return true;
         }catch(PDOException $e){
             return false;
-        }
-        
-        
+        }  
     }
 }
 
